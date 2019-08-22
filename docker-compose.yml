@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  server: know-ankit-diary
+  build: server
+  command: run dev
+  ports:
+    - '4100'
+    - '9229'
